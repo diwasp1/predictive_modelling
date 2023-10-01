@@ -1,7 +1,67 @@
-### Usage Documetation 
 
-Type the following commad to run the jupyter image:
+# Sydney Restaurant Analysis and Rating Prediction
 
-```
-docker run -p 8888:8888 dibas_dstns_assign_1 
-```
+## Assignment 1: Predictive Modelling of Eating-Out Problem
+
+This repository contains code and data for the "Sydney Restaurant Analysis and Rating Prediction" project. This project focuses on exploring and analyzing restaurant data in Sydney, including geographical distribution, cuisine types, and cost, and building predictive models to predict restaurant ratings.
+
+## Project Overview
+
+The project is divided into two main parts:
+
+1. Data Exploration and Preprocessing: In this part, we explore the restaurant data, handle missing values, perform feature engineering, and prepare the data for modeling.
+
+2. Predictive Modeling: We build and evaluate predictive models to predict restaurant ratings. We use machine learning algorithms such as Linear Regression, Random Forest Classifier, Decision Tree Classifier, and K-Neighbors Classifier.
+
+## Data Exploration
+
+We begin by importing and understanding the restaurant data. We perform the following steps:
+- Import necessary libraries.
+- Explore the contents of the data directory.
+- Load the dataset.
+- Analyze the dataset's shape, information, and statistics.
+- Check for missing values and handle duplicates.
+- Extract and analyze cuisine types and suburb information.
+- Visualize the data through various plots.
+
+## Interactive Maps
+
+We create interactive maps using Plotly and Geopandas to visualize the density of restaurants serving specific cuisines in Sydney.
+
+
+## Data Preprocessing
+
+
+We preprocess the data by:
+- Handling missing values in both categorical and numerical columns.
+- Encoding categorical variables.
+- Performing feature scaling on numerical features.
+
+## Predictive Modeling
+
+We build predictive models to predict restaurant ratings:
+- For regression, we use Linear Regression and Gradient Descent Regression.
+- For classification, we use Logistic Regression, Random Forest Classifier, Decision Tree Classifier, and K-Neighbors Classifier.
+- We evaluate each model's performance using accuracy, Mean Squared Error (MSE), and R-squared (R^2) scores.
+
+## Model Evaluation
+
+We evaluate the models' performance and visualize the results using confusion matrices and scatter plots.
+
+## How to Use
+
+To run and use this project, follow these steps:
+
+1. Clone this repository to your local machine:
+
+	``` git clone https://github.com/diwasp1/predictive_modelling.git ```
+
+2. Using docker to run the code:
+
+	``` docker run -p 8888:8888 dibas_dstns_assign_1 ```
+
+
+
+
+
+
