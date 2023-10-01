@@ -9,13 +9,13 @@ This repository contains code and data for the "Sydney Restaurant Analysis and R
 
 The project is divided into two main parts:
 
-1. Data Exploration and Preprocessing: In this part, we explore the restaurant data, handle missing values, perform feature engineering, and prepare the data for modeling.
+1. Data Exploration and Preprocessing: In this part, the restaurant data is explored, missing values are handled, feature engineering is performed, and the data is prepared for modeling.
 
-2. Predictive Modeling: We build and evaluate predictive models to predict restaurant ratings. We use machine learning algorithms such as Linear Regression, Random Forest Classifier, Decision Tree Classifier, and K-Neighbors Classifier.
+2. Predictive Modeling: Predictive models are built and evaluated to predict restaurant ratings. Machine learning algorithms such as Linear Regression, Random Forest Classifier, Decision Tree Classifier, and K-Neighbors Classifier are employed.
 
 ## Data Exploration
 
-We begin by importing and understanding the restaurant data. We perform the following steps:
+The project starts by importing and understanding the restaurant data. The following steps are executed:
 - Import necessary libraries.
 - Explore the contents of the data directory.
 - Load the dataset.
@@ -26,27 +26,25 @@ We begin by importing and understanding the restaurant data. We perform the foll
 
 ## Interactive Maps
 
-We create interactive maps using Plotly and Geopandas to visualize the density of restaurants serving specific cuisines in Sydney.
+Interactive maps using Plotly and Geopandas are created to visualize the density of restaurants serving specific cuisines in Sydney.
 
 
 ## Data Preprocessing
 
-
-We preprocess the data by:
+Data preprocessing includes:
 - Handling missing values in both categorical and numerical columns.
 - Encoding categorical variables.
 - Performing feature scaling on numerical features.
 
 ## Predictive Modeling
 
-We build predictive models to predict restaurant ratings:
-- For regression, we use Linear Regression and Gradient Descent Regression.
-- For classification, we use Logistic Regression, Random Forest Classifier, Decision Tree Classifier, and K-Neighbors Classifier.
-- We evaluate each model's performance using accuracy, Mean Squared Error (MSE), and R-squared (R^2) scores.
+- For regression, Linear Regression and Gradient Descent Regression are used.
+- For classification, Logistic Regression, Random Forest Classifier, Decision Tree Classifier, and K-Neighbors Classifier are applied.
+- Model performance is evaluated using accuracy, Mean Squared Error (MSE), and R-squared (R^2) scores.
 
 ## Model Evaluation
 
-We evaluate the models' performance and visualize the results using confusion matrices and scatter plots.
+Model performance is assessed, and results are visualized using confusion matrices and scatter plots.
 
 ## How to Use
 
@@ -58,7 +56,7 @@ To run and use this project, follow these steps:
 
 2. Using docker to run the code:
 
-	``` docker run -p 8888:8888 dibas_dstns_assign_1 ```
+	``` docker run -p 8888:8888 diwasp1/predictivemodelling:0.0.1 ```
 
 
 
