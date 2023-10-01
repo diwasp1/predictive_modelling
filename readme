@@ -1,0 +1,7 @@
+### Usage Documetation 
+
+Type the following commad to run the jupyter image:
+
+```
+docker run -p 8888:8888 dibas_dstns_assign_1 
+```
