@@ -1,12 +1,13 @@
 FROM jupyter/datascience-notebook
 
 ## Copy the files into the container 
-COPY . /work
+COPY . /Assignment_1_test
 
-WORKDIR "/work"
+WORKDIR /Assignment_1_test
 
 EXPOSE 8888
 
-RUN ["pip", "install", "plotly"]
+RUN pip install -r requirements.txt
+
 
 CMD ["jupyter", "notebook"]
